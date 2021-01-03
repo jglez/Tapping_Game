@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -39,4 +41,31 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.6rem;
+  color: red;
+  border: solid 3px red;
+  font-family: 'Faster One', cursive;
+  margin-bottom: 5%;
+  background-color: black;
+  padding: 4%;
+}
+
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: red;
+  padding: 5%;
+
+}
+
+button:hover {
+  text-transform: uppercase;
+  font-size: 2.5rem;
 }
